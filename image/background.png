@@ -1,0 +1,1110 @@
+<!doctype html><html
+lang="fr-FR"><head
+prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# product: http://ogp.me/ns/product#"> <script>var LOCALE='fr\u002DFR';var BASE_URL='https\u003A\u002F\u002Flicendi.com\u002Ffr\u002F';var require={'baseUrl':'https\u003A\u002F\u002Flicendi.com\u002Fstatic\u002Fversion1746206549\u002Ffrontend\u002FSwissup\u002Fargento\u002Dstripes\u002Ffr_FR'};</script> <meta
+charset="utf-8"/><meta
+name="title" content="Active Directory local ou Active Directory dans le cloud - Licendi"/><meta
+name="description" content="Découvrez les principales différences entre Active Directory sur site et Active Directory dans le nuage et choisissez la meilleure option pour votre entreprise."/><meta
+name="keywords" content="Active Directory Local vs Active Directory sur le Nube, Active Directory Local face à Active Directory sur le Nube"/><meta
+name="robots" content="INDEX,FOLLOW"/><meta
+name="viewport" content="width=device-width, initial-scale=1"/><meta
+name="format-detection" content="telephone=no"/><title>Active Directory local ou Active Directory dans le cloud - Licendi</title><link
+rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com"><link
+rel="dns-prefetch" href="//www.googletagmanager.com"><link
+rel="preconnect" href="//maxcdn.bootstrapcdn.com" crossorigin><link
+rel="preconnect" href="//www.googletagmanager.com" crossorigin><link
+rel="stylesheet" type="text/css"  media="all" href="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/Swissup_FontAwesome/font-awesome-4.7.0/css/font-awesome.min.css" /><link
+rel="stylesheet" type="text/css"  media="all" href="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/mage/calendar.css" /><link
+rel="stylesheet" type="text/css"  media="all" href="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/css/styles-m.css" /><link
+rel="stylesheet" type="text/css"  media="all" href="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/Magezon_Core/css/styles.css" /><link
+rel="stylesheet" type="text/css"  media="all" href="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/StripeIntegration_Payments/css/wallets.css" /><link
+rel="stylesheet" type="text/css"  media="all" href="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/Swissup_Ajaxpro/css/ajaxpro.css" /><link
+rel="stylesheet" type="text/css"  media="all" href="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/Swissup_Ajaxpro/css/floatingcart.css" /><link
+rel="stylesheet" type="text/css"  media="all" href="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/Swissup_Attributepages/css/attributepages.css" /><link
+rel="stylesheet" type="text/css"  media="all" href="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/Swissup_Easybanner/css/easybanner.css" /><link
+rel="stylesheet" type="text/css"  media="all" href="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/mage/gallery/gallery.css" /><link
+rel="stylesheet" type="text/css"  media="all" href="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/Swissup_Lightboxpro/css/styles.css" /><link
+rel="stylesheet" type="text/css"  media="all" href="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/Swissup_SeoCrossLinks/css/crosslinks.css" /><link
+rel="stylesheet" type="text/css"  media="all" href="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/Swissup_Swiper/lib/swiper.css" /><link
+rel="stylesheet" type="text/css"  media="all" href="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/Swissup_Testimonials/css/testimonials.css" /><link
+rel="stylesheet" type="text/css"  media="all" href="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/Magefan_Blog/css/blog-m.css" /><link
+rel="stylesheet" type="text/css"  media="all" href="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/Magefan_Blog/css/blog-new.css" /><link
+rel="stylesheet" type="text/css"  media="all" href="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/Magefan_Blog/css/blog-custom.css" /><link
+rel="stylesheet" type="text/css"  media="all" href="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/Magefan_Blog/css/comments.css" /><link
+rel="stylesheet" type="text/css"  media="screen and (min-width: 768px)" href="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/css/styles-l.css" /><link
+rel="stylesheet" type="text/css"  media="print" href="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/css/print.css" /><link
+rel="stylesheet" type="text/css"  media="screen, print" href="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/Swissup_Suggestpage/css/suggestpage.css" /> <script  type="text/javascript"  src="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/requirejs/require.js"></script> <script  type="text/javascript"  src="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/mage/requirejs/mixins.js"></script> <script  type="text/javascript"  src="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/requirejs-config.js"></script> <link
+rel="preload" as="font" crossorigin="anonymous" href="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/fonts/opensans/light/opensans-300.woff2" /><link
+rel="preload" as="font" crossorigin="anonymous" href="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/fonts/opensans/regular/opensans-400.woff2" /><link
+rel="preload" as="font" crossorigin="anonymous" href="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/fonts/opensans/semibold/opensans-600.woff2" /><link
+rel="preload" as="font" crossorigin="anonymous" href="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/fonts/opensans/bold/opensans-700.woff2" /><link
+rel="preload" as="font" crossorigin="anonymous" href="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/Swissup_FontAwesome/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0" /><link
+rel="canonical" href="https://licendi.com/fr/blog/Active%20Directory%20local%20ou%20Active%20Directory%20dans%20le%20cloud/" /><link
+rel="icon" type="image/x-icon" href="https://licendi.com/media/favicon/default/cropped-miniatura512-2-32x32.png" /><link
+rel="shortcut icon" type="image/x-icon" href="https://licendi.com/media/favicon/default/cropped-miniatura512-2-32x32.png" />
+ <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-54X2L3M');</script> 
+ <script async src="https://www.googletagmanager.com/gtag/js?id=UA-194829258-1"></script> <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());gtag('config','UA-194829258-1');</script>  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-194829258-1"></script> <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());gtag('config','UA-194829258-1');</script> <meta
+property="og:type" content="article" /><meta
+property="og:title" content="Active Directory local ou Active Directory dans le cloud - Licendi" /><meta
+property="og:description" content="Découvrez les principales différences entre Active Directory sur site et Active Directory dans le nuage et choisissez la meilleure option pour votre entreprise." /><meta
+property="og:url" content="https://licendi.com/fr/blog/Active Directory local ou Active Directory dans le cloud/" /><meta
+property="og:image" content="https://licendi.com/media/magefan_blog/Active_Directory_Local_vs_Active_Directory_en_la_Nube.jpg" /> <script type="text/x-magento-init">{"*":{"Magento_PageCache/js/form-key-provider":{"isPaginationCacheEnabled":0}}}</script> <script>window.addEventListener("load",(event)=>{<!--Google tag(gtag.js)-->const scriptLibrary=document.createElement('script');scriptLibrary.setAttribute('src','https://www.googletagmanager.com/gtag/js?id=G-MMVZQMPDMS',);document.head.appendChild(scriptLibrary);},false);</script> <script defer>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js',new Date());gtag('config','G-MMVZQMPDMS');</script> <div
+class="bss-script"></div> <script type="text/x-magento-init">{"*":{"tracking":{}}}</script> <script type="text/javascript">CRISP_RUNTIME_CONFIG={locale:"fr"};require(['jquery'],function($){"use strict";$("body").one("mousemove",function(){window.$crisp=[];window.CRISP_WEBSITE_ID="ae6e06b5-7da8-4c0f-baaf-871713b4a259";(function(){let d=document;let s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();});});</script> <link
+rel="preload" as="style" type="text/css" media="all" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"> <script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"BlogPosting","@id":"https:\/\/licendi.com\/fr\/blog\/Active Directory local ou Active Directory dans le cloud\/","author":{"@type":"Person","name":"Ksenia Shapovalenko","url":"https:\/\/licendi.com\/fr\/blog\/author\/ksenia-shapovalenko\/"},"headline":"Active Directory local ou Active Directory dans le cloud - Licendi","description":"D\u00e9couvrez les principales diff\u00e9rences entre Active Directory sur site et Active Directory dans le nuage et choisissez la meilleure option pour votre entreprise.","datePublished":"2024-10-14T00:00:00+00:00","dateModified":"2024-10-14T11:29:28+00:00","image":{"@type":"ImageObject","url":"https:\/\/licendi.com\/media\/magefan_blog\/Active_Directory_Local_vs_Active_Directory_en_la_Nube.jpg","width":720,"height":720},"publisher":{"@type":"Organization","name":"Licendi","logo":{"@type":"ImageObject","url":"https:\/\/licendi.com\/media\/logo\/default\/logo.png"}},"mainEntityOfPage":"https:\/\/licendi.com\/fr\/blog\/"}</script><meta
+name="twitter:card" content="summary_large_image" /><link
+rel="alternate" hreflang="de-DE" href="https://licendi.com/de/blog/lokales-active-directory-vs-cloud-basiertes-active-directory/" /><link
+rel="alternate" hreflang="en-GB" href="https://licendi.com/en/blog/active-directory-local-vs-active-directory-in-the-cloud/" /><link
+rel="alternate" hreflang="es-ES" href="https://licendi.com/es/blog/active-directory-local-vs-active-directory-en-la-nube/" /><link
+rel="alternate" hreflang="fr-FR" href="https://licendi.com/fr/blog/Active Directory local ou Active Directory dans le cloud/" /><link
+rel="alternate" hreflang="it-IT" href="https://licendi.com/it/blog/active-directory-locale-vs-active-directory-nel-cloud/" /></head><body
+data-container="body"
+data-mage-init='{"loaderAjax": {}, "loader": { "icon": "https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/images/loader-2.gif"}}'
+class="lightboxpro-advanced blog-page swissup-ajaxsearch-loading blog-post-active-directory-local-ou-active-directory-dans-le-cloud blog-post-view page-layout-2columns-right" id="html-body"> <script type="text/x-magento-init">{"*":{"Magento_PageBuilder/js/widget-initializer":{"config":{"[data-content-type=\"slider\"][data-appearance=\"default\"]":{"Magento_PageBuilder\/js\/content-type\/slider\/appearance\/default\/widget":false},"[data-content-type=\"map\"]":{"Magento_PageBuilder\/js\/content-type\/map\/appearance\/default\/widget":false},"[data-content-type=\"row\"]":{"Magento_PageBuilder\/js\/content-type\/row\/appearance\/default\/widget":false},"[data-content-type=\"tabs\"]":{"Magento_PageBuilder\/js\/content-type\/tabs\/appearance\/default\/widget":false},"[data-content-type=\"slide\"]":{"Magento_PageBuilder\/js\/content-type\/slide\/appearance\/default\/widget":{"buttonSelector":".pagebuilder-slide-button","showOverlay":"hover","dataRole":"slide"}},"[data-content-type=\"banner\"]":{"Magento_PageBuilder\/js\/content-type\/banner\/appearance\/default\/widget":{"buttonSelector":".pagebuilder-banner-button","showOverlay":"hover","dataRole":"banner"}},"[data-content-type=\"buttons\"]":{"Magento_PageBuilder\/js\/content-type\/buttons\/appearance\/inline\/widget":false},"[data-content-type=\"products\"][data-appearance=\"carousel\"]":{"Magento_PageBuilder\/js\/content-type\/products\/appearance\/carousel\/widget":false}},"breakpoints":{"desktop":{"label":"Desktop","stage":true,"default":true,"class":"desktop-switcher","icon":"Magento_PageBuilder::css\/images\/switcher\/switcher-desktop.svg","conditions":{"min-width":"1024px"},"options":{"products":{"default":{"slidesToShow":"5"}}}},"tablet":{"conditions":{"max-width":"1024px","min-width":"768px"},"options":{"products":{"default":{"slidesToShow":"4"},"continuous":{"slidesToShow":"3"}}}},"mobile":{"label":"Mobile","stage":true,"class":"mobile-switcher","icon":"Magento_PageBuilder::css\/images\/switcher\/switcher-mobile.svg","media":"only screen and (max-width: 768px)","conditions":{"max-width":"768px","min-width":"640px"},"options":{"products":{"default":{"slidesToShow":"3"}}}},"mobile-small":{"conditions":{"max-width":"640px"},"options":{"products":{"default":{"slidesToShow":"2"},"continuous":{"slidesToShow":"1"}}}}}}}}</script> <div
+class="cookie-status-message" id="cookie-status">
+The store will not work correctly in the case when cookies are disabled.</div> <script type="text&#x2F;javascript">document.querySelector("#cookie-status").style.display="none";</script> <script type="text/x-magento-init">{"*":{"cookieStatus":{}}}</script> <script type="text/x-magento-init">{"*":{"mage/cookies":{"expires":null,"path":"\u002F","domain":".licendi.com","secure":true,"lifetime":"3600"}}}</script> <noscript><div
+class="message global noscript"><div
+class="content"><p>
+<strong>JavaScript seems to be disabled in your browser.</strong>
+<span>
+For the best experience on our site, be sure to turn on Javascript in your browser.                    </span></p></div></div>
+</noscript> <script>window.cookiesConfig=window.cookiesConfig||{};window.cookiesConfig.secure=true;</script><script>require.config({map:{'*':{wysiwygAdapter:'mage/adminhtml/wysiwyg/tiny_mce/tinymce5Adapter'}}});</script><script>require.config({paths:{googleMaps:'https\u003A\u002F\u002Fmaps.googleapis.com\u002Fmaps\u002Fapi\u002Fjs\u003Fv\u003D3\u0026key\u003D'},config:{'Magento_PageBuilder/js/utils/map':{style:''},'Magento_PageBuilder/js/content-type/map/preview':{apiKey:'',apiKeyErrorMessage:'You\u0020must\u0020provide\u0020a\u0020valid\u0020\u003Ca\u0020href\u003D\u0027https\u003A\u002F\u002Flicendi.com\u002Ffr\u002Fadminhtml\u002Fsystem_config\u002Fedit\u002Fsection\u002Fcms\u002F\u0023cms_pagebuilder\u0027\u0020target\u003D\u0027_blank\u0027\u003EGoogle\u0020Maps\u0020API\u0020key\u003C\u002Fa\u003E\u0020to\u0020use\u0020a\u0020map.'},'Magento_PageBuilder/js/form/element/map':{apiKey:'',apiKeyErrorMessage:'You\u0020must\u0020provide\u0020a\u0020valid\u0020\u003Ca\u0020href\u003D\u0027https\u003A\u002F\u002Flicendi.com\u002Ffr\u002Fadminhtml\u002Fsystem_config\u002Fedit\u002Fsection\u002Fcms\u002F\u0023cms_pagebuilder\u0027\u0020target\u003D\u0027_blank\u0027\u003EGoogle\u0020Maps\u0020API\u0020key\u003C\u002Fa\u003E\u0020to\u0020use\u0020a\u0020map.'},}});</script> <script>require.config({shim:{'Magento_PageBuilder/js/utils/map':{deps:['googleMaps']}}});</script> <link
+rel="stylesheet" property="stylesheet" type="text/css" href="https://licendi.com/media/swissup/argento/stripes/css/base_fr_backend.css?version=1744206719" media="all" /><div
+class="page-wrapper"><div
+data-bind="scope: 'ajaxpro'"><div
+class="ajaxpro-wrapper" data-block="ajaxpro" data-bind="visible: isActive()"><div
+class="block-ajaxpro"
+style="display: none"
+data-bind="mageInit: {
+'Swissup_Ajaxpro/js/modal':{
+'modalClass': 'ajaxpro-modal-dialog ajaxpro-modal-dialog-popup ajaxpro-popup-simple',
+'closeTimeout': 50,
+'responsive': true,
+'innerScroll': true,
+'type': 'popup',
+'buttons': [{
+text: 'Continuer vos achats',
+class: 'ajaxpro-continue-button',
+click: function() {
+this.closeModal();
+}
+}]
+}}"><div
+id="ajaxpro-checkout.cart"
+data-bind="afterRender: afterRender, bindHtml: bindBlock('checkout.cart')"></div></div></div><div
+id="ajaxpro-checkout.cart.fixes" data-bind="html: bindBlock('checkout.cart.fixes')"></div></div><header
+class="page-header"><div
+class="panel wrapper"><div
+class="panel header"><div
+class="switcher language switcher-language" data-ui-id="language-switcher" id="switcher-language">
+<strong
+class="label switcher-label"><span>Language</span></strong><div
+class="actions dropdown options switcher-options"><div
+class="action toggle switcher-trigger"
+id="switcher-language-trigger"
+data-mage-init='{"dropdown":{}}'
+data-toggle="dropdown"
+data-trigger-keypress-button="true">
+<strong
+class="view-fr"><span><img
+src="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/images/fr.svg" alt="fr" width="21" height="15">
+&nbsp;FR</span>
+</strong></div><ul
+class="dropdown switcher-dropdown"
+data-target="dropdown"><li
+class="view-en switcher-option">
+<a
+href="https://licendi.com/fr/stores/store/redirect/___store/en/___from_store/fr/uenc/aHR0cHM6Ly9saWNlbmRpLmNvbS9lbi9ibG9nL0FjdGl2ZSUyMERpcmVjdG9yeSUyMGxvY2FsJTIwb3UlMjBBY3RpdmUlMjBEaXJlY3RvcnklMjBkYW5zJTIwbGUlMjBjbG91ZC8%2C/">
+<img
+src="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/images/en.svg" alt="en" width="21" height="15">
+&nbsp;EN                            </a></li><li
+class="view-de switcher-option">
+<a
+href="https://licendi.com/fr/stores/store/redirect/___store/de/___from_store/fr/uenc/aHR0cHM6Ly9saWNlbmRpLmNvbS9kZS9ibG9nL0FjdGl2ZSUyMERpcmVjdG9yeSUyMGxvY2FsJTIwb3UlMjBBY3RpdmUlMjBEaXJlY3RvcnklMjBkYW5zJTIwbGUlMjBjbG91ZC8%2C/">
+<img
+src="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/images/de.svg" alt="de" width="21" height="15">
+&nbsp;DE                            </a></li><li
+class="view-it switcher-option">
+<a
+href="https://licendi.com/fr/stores/store/redirect/___store/it/___from_store/fr/uenc/aHR0cHM6Ly9saWNlbmRpLmNvbS9pdC9ibG9nL0FjdGl2ZSUyMERpcmVjdG9yeSUyMGxvY2FsJTIwb3UlMjBBY3RpdmUlMjBEaXJlY3RvcnklMjBkYW5zJTIwbGUlMjBjbG91ZC8%2C/">
+<img
+src="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/images/it.svg" alt="it" width="21" height="15">
+&nbsp;IT                            </a></li><li
+class="view-es switcher-option">
+<a
+href="https://licendi.com/fr/stores/store/redirect/___store/es/___from_store/fr/uenc/aHR0cHM6Ly9saWNlbmRpLmNvbS9lcy9ibG9nL0FjdGl2ZSUyMERpcmVjdG9yeSUyMGxvY2FsJTIwb3UlMjBBY3RpdmUlMjBEaXJlY3RvcnklMjBkYW5zJTIwbGUlMjBjbG91ZC8%2C/">
+<img
+src="https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/images/es.svg" alt="es" width="21" height="15">
+&nbsp;ES                            </a></li></ul></div></div>
+<a
+class="action skip contentarea"
+href="#contentarea">
+<span>
+Skip to Content    </span>
+</a><div
+class="switcher currency switcher-currency" id="switcher-currency">
+<strong
+class="label switcher-label"><span>Currency</span></strong><div
+class="actions dropdown options switcher-options"><div
+class="action toggle switcher-trigger"
+id="switcher-currency-trigger"
+data-mage-init='{"dropdown":{}}'
+data-toggle="dropdown"
+data-trigger-keypress-button="true">
+<strong
+class="language-EUR">
+<span>EUR, €</span>
+</strong></div><ul
+class="dropdown switcher-dropdown" data-target="dropdown"><li
+class="currency-GBP switcher-option">
+<a
+href="#" data-post='{"action":"https:\/\/licendi.com\/fr\/directory\/currency\/switch\/","data":{"currency":"GBP","uenc":"aHR0cHM6Ly9saWNlbmRpLmNvbS9mci9ibG9nL0FjdGl2ZSUyMERpcmVjdG9yeSUyMGxvY2FsJTIwb3UlMjBBY3RpdmUlMjBEaXJlY3RvcnklMjBkYW5zJTIwbGUlMjBjbG91ZC8,"}}'>GBP, £</a></li><li
+class="currency-USD switcher-option">
+<a
+href="#" data-post='{"action":"https:\/\/licendi.com\/fr\/directory\/currency\/switch\/","data":{"currency":"USD","uenc":"aHR0cHM6Ly9saWNlbmRpLmNvbS9mci9ibG9nL0FjdGl2ZSUyMERpcmVjdG9yeSUyMGxvY2FsJTIwb3UlMjBBY3RpdmUlMjBEaXJlY3RvcnklMjBkYW5zJTIwbGUlMjBjbG91ZC8,"}}'>USD, US$</a></li></ul></div></div><ul
+class="header links"><li
+class="greet welcome" data-bind="scope: 'customer'">
+<!-- ko if: customer().fullname  -->
+<span
+class="logged-in"
+data-bind="text: new String('Bienvenue, %1!').replace('%1', customer().fullname)">
+</span>
+<!-- /ko -->
+<!-- ko ifnot: customer().fullname  -->
+<span
+class="not-logged-in"
+data-bind="html: ''"></span>
+<!-- /ko --></li> <script type="text/x-magento-init">{"*":{"Magento_Ui/js/core/app":{"components":{"customer":{"component":"Magento_Customer/js/view/customer"}}}}}</script> <li
+class="link authorization-link" data-label="or">
+<a
+href="https://licendi.com/fr/customer/account/login/referer/aHR0cHM6Ly9saWNlbmRpLmNvbS9mci9ibG9nL0FjdGl2ZSUyMERpcmVjdG9yeSUyMGxvY2FsJTIwb3UlMjBBY3RpdmUlMjBEaXJlY3RvcnklMjBkYW5zJTIwbGUlMjBjbG91ZC8%2C/"        >S&#039;identifier</a></li><li><a
+href="https://licendi.com/fr/customer/account/create/" id="idsPH75qm3" >Créer un Compte</a></li></ul><div
+data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><ul
+class="header links header-cms-links"><li
+class="first"><img
+src="https://licendi.com/media/wysiwyg/contact-us_1_.png" alt="Centre de soutien" width="25" height="25">
+<a
+href="https://help.licendi.com/fr/" target="_blank">Centre de soutien</a></li></ul></div></div></div><div
+class="header wrapper"><div
+class="header content"><span
+data-action="toggle-nav" class="action nav-toggle"><span>Toggle Nav</span></span>
+<a
+class="logo" href="https://licendi.com/fr/" title="">
+<img
+src="https://licendi.com/media/logo/default/logo.png"
+title=""
+alt=""
+width="207"         height="36"    />
+</a><div
+data-block="minicart" class="minicart-wrapper">
+<a
+class="action showcart" href="https://licendi.com/fr/checkout/cart/"
+data-bind="scope: 'minicart_content'">
+<span
+class="text">Mon panier</span>
+<span
+class="counter qty empty"
+data-bind="css: { empty: !!getCartParam('summary_count') == false && !isLoading() },
+blockLoader: isLoading">
+<span
+class="counter-number">
+<!-- ko if: getCartParam('summary_count') -->
+<!-- ko text: getCartParam('summary_count').toLocaleString(window.LOCALE) --><!-- /ko -->
+<!-- /ko -->
+</span>
+<span
+class="counter-label">
+<!-- ko if: getCartParam('summary_count') -->
+<!-- ko text: getCartParam('summary_count').toLocaleString(window.LOCALE) --><!-- /ko -->
+<!-- /ko -->
+Articles            </span>
+</span>
+</a><div
+class="block block-minicart"
+data-role="dropdownDialog"
+data-mage-init='{"dropdownDialog":{
+"appendTo":"[data-block=minicart]",
+"triggerTarget":".showcart",
+"timeout": "2000",
+"closeOnMouseLeave": false,
+"closeOnEscape": true,
+"triggerClass":"active",
+"parentClass":"active",
+"buttons":[]}}'><div
+id="minicart-content-wrapper" data-bind="scope: 'minicart_content'">
+<!-- ko template: getTemplate() --><!-- /ko --></div></div> <script>window.checkout={"shoppingCartUrl":"https:\/\/licendi.com\/fr\/checkout\/cart\/","checkoutUrl":"https:\/\/licendi.com\/fr\/checkout\/","updateItemQtyUrl":"https:\/\/licendi.com\/fr\/checkout\/sidebar\/updateItemQty\/","removeItemUrl":"https:\/\/licendi.com\/fr\/checkout\/sidebar\/removeItem\/","imageTemplate":"Magento_Catalog\/product\/image_with_borders","baseUrl":"https:\/\/licendi.com\/fr\/","minicartMaxItemsVisible":5,"websiteId":"1","maxItemsToDisplay":10,"storeId":"3","storeGroupId":"1","customerLoginUrl":"https:\/\/licendi.com\/fr\/customer\/account\/login\/referer\/aHR0cHM6Ly9saWNlbmRpLmNvbS9mci9ibG9nL0FjdGl2ZSUyMERpcmVjdG9yeSUyMGxvY2FsJTIwb3UlMjBBY3RpdmUlMjBEaXJlY3RvcnklMjBkYW5zJTIwbGUlMjBjbG91ZC8%2C\/","isRedirectRequired":false,"autocomplete":"off","captcha":{"user_login":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"https:\/\/licendi.com\/fr\/captcha\/refresh\/","isRequired":false,"timestamp":1746253261}}}</script> <script type="text/x-magento-init">{"[data-block='minicart']":{"Magento_Ui/js/core/app":{"components":{"minicart_content":{"children":{"subtotal.container":{"children":{"subtotal":{"children":{"subtotal.totals":{"config":{"display_cart_subtotal_incl_tax":0,"display_cart_subtotal_excl_tax":1,"template":"Magento_Tax\/checkout\/minicart\/subtotal\/totals"},"children":{"subtotal.totals.msrp":{"component":"Magento_Msrp\/js\/view\/checkout\/minicart\/subtotal\/totals","config":{"displayArea":"minicart-subtotal-hidden","template":"Magento_Msrp\/checkout\/minicart\/subtotal\/totals"}}},"component":"Magento_Tax\/js\/view\/checkout\/minicart\/subtotal\/totals"}},"component":"uiComponent","config":{"template":"Magento_Checkout\/minicart\/subtotal"}}},"component":"uiComponent","config":{"displayArea":"subtotalContainer"}},"item.renderer":{"component":"Magento_Checkout\/js\/view\/cart-item-renderer","config":{"displayArea":"defaultRenderer","template":"Magento_Checkout\/minicart\/item\/default"},"children":{"item.image":{"component":"Magento_Catalog\/js\/view\/image","config":{"template":"Magento_Catalog\/product\/image","displayArea":"itemImage"}},"checkout.cart.item.price.sidebar":{"component":"uiComponent","config":{"template":"Magento_Checkout\/minicart\/item\/price","displayArea":"priceSidebar"}}}},"extra_info":{"component":"uiComponent","config":{"displayArea":"extraInfo"}},"promotion":{"component":"uiComponent","config":{"displayArea":"promotion"}}},"config":{"override_minicart":false,"itemRenderer":{"default":"defaultRenderer","simple":"defaultRenderer","virtual":"defaultRenderer"},"template":"Magento_Checkout\/minicart\/content","renderTemplate":null,"tracks":{"renderTemplate":true}},"component":"Magento_Checkout\/js\/view\/minicart"},"ajaxpro_minicart_content":{"children":{"subtotal.container":{"children":{"subtotal":{"children":{"subtotal.totals":{"config":{"display_cart_subtotal_incl_tax":0,"display_cart_subtotal_excl_tax":1}}}}}}},"config":{"override_minicart":false}}},"types":[]}},"*":{"Magento_Ui/js/block-loader":"https\u003A\u002F\u002Flicendi.com\u002Fstatic\u002Fversion1746206549\u002Ffrontend\u002FSwissup\u002Fargento\u002Dstripes\u002Ffr_FR\u002Fimages\u002Floader\u002D1.gif"}}</script> </div><div
+class="switcher customer switcher-customer" data-ui-id="customer-switcher" id="switcher-customer">
+<strong
+class="label switcher-label"><span>Mon Compte</span></strong><div
+class="actions dropdown options switcher-options"><div
+class="action toggle switcher-trigger"
+id="switcher-customer-trigger"
+data-mage-init='{"dropdown":{}}'
+data-toggle="dropdown"
+data-trigger-keypress-button="true">
+<a
+class="link"
+href="https://licendi.com/fr/customer/account/"
+title="Mon Compte">
+<i
+class="icon"></i>
+<span
+class="text">Mon Compte</span>
+</a></div><ul
+class="dropdown switcher-dropdown"><li><a
+href="https://licendi.com/fr/customer/account/" id="idCPrePjl5" >Mon Compte</a></li><li
+class="link wishlist" data-bind="scope: 'wishlist'">
+<a
+href="https://licendi.com/fr/wishlist/">Ma Liste d&#039;Envies        <!-- ko if: wishlist().counter -->
+<span
+data-bind="text: wishlist().counter" class="counter qty"></span>
+<!-- /ko -->
+</a></li> <script type="text/x-magento-init">{"*":{"Magento_Ui/js/core/app":{"components":{"wishlist":{"component":"Magento_Wishlist/js/view/wishlist"}}}}}</script> <li
+class="link authorization-link" data-label="or">
+<a
+href="https://licendi.com/fr/customer/account/login/referer/aHR0cHM6Ly9saWNlbmRpLmNvbS9mci9ibG9nL0FjdGl2ZSUyMERpcmVjdG9yeSUyMGxvY2FsJTIwb3UlMjBBY3RpdmUlMjBEaXJlY3RvcnklMjBkYW5zJTIwbGUlMjBjbG91ZC8%2C/"        >S&#039;identifier</a></li> <script type="text/x-magento-init">{"*":{"Magento_Ui/js/core/app":{"components":{"rewards":{"component":"Mirasvit_RewardsCheckout/js/view/rewards","defaultValue":""}}}}}</script> </ul></div></div><div
+class="block block-search"><div
+class="block block-title"><strong>Search</strong></div><div
+class="block block-content"><form
+class="form minisearch" id="search_mini_form"
+action="https://licendi.com/fr/catalogsearch/result/" method="get"><div
+class="field search">
+<label
+class="label" for="search" data-role="minisearch-label">
+<span>Search</span>
+</label><div
+class="control">
+<input
+id="search"
+data-mage-init='{
+"quickSearch": {
+"formSelector": "#search_mini_form",
+"url": "https://licendi.com/fr/search/ajax/suggest/",
+"destinationSelector": "#search_autocomplete",
+"minSearchLength": "3"
+}
+}'
+type="text"
+name="q"
+value=""
+placeholder="Rechercher..."
+class="input-text"
+maxlength="128"
+role="combobox"
+aria-haspopup="false"
+aria-autocomplete="both"
+autocomplete="off"
+aria-expanded="false"/><div
+id="search_autocomplete" class="search-autocomplete"></div><div
+class="nested">
+<a
+class="action advanced" href="https://licendi.com/fr/catalogsearch/advanced/" data-action="advanced-search">
+Recherche Avancée    </a></div></div></div><div
+class="actions">
+<button
+type="submit"
+title="Search"
+class="action search"
+aria-label="Search"
+>
+<span>Search</span>
+</button></div></form></div></div><ul
+class="compare wrapper"><li
+class="item link compare" data-bind="scope: 'compareProducts'" data-role="compare-products-link">
+<a
+class="action compare no-display" title="Comparer&#x20;Produits"
+data-bind="attr: {'href': compareProducts().listUrl}, css: {'no-display': !compareProducts().count}"
+>
+Comparer Produits        <span
+class="counter qty" data-bind="text: compareProducts().countCaption"></span>
+</a></li> <script type="text/x-magento-init">{"[data-role=compare-products-link]":{"Magento_Ui/js/core/app":{"components":{"compareProducts":{"component":"Magento_Catalog\/js\/view\/compare-products"}}}}}</script> </ul></div></div></header><div
+class="sections nav-sections"><div
+class="section-items nav-sections-items"
+data-mage-init='{"tabs":{"openedState":"active"}}'><div
+class="section-item-title nav-sections-item-title"
+data-role="collapsible">
+<a
+class="nav-sections-item-switch"
+data-toggle="switch" href="#store.menu">
+Menu                    </a></div><div
+class="section-item-content nav-sections-item-content"
+id="store.menu"
+data-role="content"><nav
+class="swissup-navigationpro navpro navigation orientation-horizontal dropdown-level0-stick-center dropdown-right dropdown-bottom navpro-transformable"
+data-action="navigation"><ul
+id="navpro-topnav"
+class="navpro-menu navpro-amazon"
+data-mage-init-lazy='{"navpro":{"level0":{"position":{"my":"center top","at":"center bottom"}},"position":{"my":"left top","at":"right top"}}}'
+><li
+class="li-item level0 nav-1 size-small first level-top parent"><a
+href="https://licendi.com/fr/licences-microsoft-office/" class="level-top"><span>Microsoft Office</span></a><div
+class="navpro-dropdown navpro-dropdown-level1 size-small" data-level="0"><div
+class="navpro-dropdown-inner"><div
+class="navpro-row gutters"><div
+class="navpro-col navpro-col-12"><div
+data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><ul
+class="children navpro-wrapped-items" data-columns="1"><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/licences-microsoft-office/professional-plus/" title="Professional Plus"><span>Professional Plus</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/licences-microsoft-office/standards/" title="Standard"><span>Standard</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/licences-microsoft-office/home-business/" title="Home &amp; Business"><span>Home &amp; Business</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/licences-microsoft-office/home-student/" title="Home &amp; Student"><span>Home &amp; Student</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/licences-microsoft-office/access/" title="Access"><span>Access</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/licences-microsoft-office/project/" title="Project"><span>Project</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/licences-microsoft-office/visio/" title="Visio"><span>Visio</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/licences-microsoft-office/office-365/" title="Office 365"><span>Office 365</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/licences-microsoft-office/office-apps/" title="Office Apps"><span>Office Apps</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/licences-microsoft-office/word-excel-etc/" title="(Word,Excel,etc.)"><span>(Word,Excel,etc.)</span></a></div></li></ul></div></div></div></div><span
+class="navpro-shevron"></span></div></li><li
+class="li-item level0 nav-2 size-small level-top parent"><a
+href="https://licendi.com/fr/windows-licenses/" class="level-top"><span>Windows</span></a><div
+class="navpro-dropdown navpro-dropdown-level1 size-small" data-level="0"><div
+class="navpro-dropdown-inner"><div
+class="navpro-row gutters"><div
+class="navpro-col navpro-col-12"><div
+data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><ul
+class="children navpro-wrapped-items" data-columns="1"><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/windows/windows-11/" title="Windows 11"><span>Windows 11</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/windows/windows-10/" title="Windows 10"><span>Windows 10</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/windows/windows-8-8-1/" title="Windows 8/8.1"><span>Windows 8/8.1</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/windows/windows-7/" title="Windows 7"><span>Windows 7</span></a></div></li></ul></div></div></div></div><span
+class="navpro-shevron"></span></div></li><li
+class="li-item level0 nav-3 size-small level-top parent"><a
+href="https://licendi.com/fr/serveurs/" class="level-top"><span>Serveurs</span></a><div
+class="navpro-dropdown navpro-dropdown-level1 size-small" data-level="0"><div
+class="navpro-dropdown-inner"><div
+class="navpro-row gutters"><div
+class="navpro-col navpro-col-12"><div
+data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><ul
+class="children navpro-wrapped-items" data-columns="1"><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/serveurs/windows-server/" title="Windows Server"><span>Windows Server</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/serveurs/sql-server/" title="SQl Server"><span>SQl Server</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/serveurs/exchange-server/" title="Exchange Server"><span>Exchange Server</span></a></div></li></ul></div></div></div></div><span
+class="navpro-shevron"></span></div></li><li
+class="li-item level0 nav-4 size-small level-top"><a
+href="https://licendi.com/fr/jeux/" class="level-top"><span>Jeux</span></a></li><li
+class="li-item level0 nav-5 size-small level-top parent"><a
+href="https://licendi.com/fr/antivirus-et-securite/" class="level-top"><span>Antivirus</span></a><div
+class="navpro-dropdown navpro-dropdown-level1 size-small" data-level="0"><div
+class="navpro-dropdown-inner"><div
+class="navpro-row gutters"><div
+class="navpro-col navpro-col-12"><div
+data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><ul
+class="children navpro-wrapped-items" data-columns="1"><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/antivirus-et-securite/avast/" title="Avast"><span>Avast</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/antivirus-et-securite/avg/" title="AVG"><span>AVG</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/antivirus-et-securite/bitdefender/" title="Bitdefender"><span>Bitdefender</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/antivirus-et-securite/bullgard/" title="Bullgard"><span>Bullgard</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/antivirus-et-securite/dashlane/" title="Dashlane"><span>Dashlane</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/antivirus-et-securite/eset/" title="ESET"><span>ESET</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/antivirus-et-securite/f-secure/" title="F-Secure"><span>F-Secure</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/antivirus-et-securite/g-data/" title="G Data"><span>G Data</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/antivirus-et-securite/kaspersky/" title="Kaspersky"><span>Kaspersky</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/antivirus-et-securite/mcafree/" title="McAfee"><span>McAfee</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/antivirus-et-securite/norton/" title="Norton"><span>Norton</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/antivirus-et-securite/panda/" title="Panda"><span>Panda</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/antivirus-et-securite/trend-micro/" title="Trend Micro"><span>Trend Micro</span></a></div></li></ul></div></div></div></div><span
+class="navpro-shevron"></span></div></li><li
+class="li-item level0 nav-6 size-small level-top parent"><a
+href="https://licendi.com/fr/outils-et-optimisation-des-pc/" class="level-top"><span>Outils de PC</span></a><div
+class="navpro-dropdown navpro-dropdown-level1 size-small" data-level="0"><div
+class="navpro-dropdown-inner"><div
+class="navpro-row gutters"><div
+class="navpro-col navpro-col-12"><div
+data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><ul
+class="children navpro-wrapped-items" data-columns="1"><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/outils-et-optimisation-des-pc/acronis-true-image/" title="Acronis True Image"><span>Acronis True Image</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/outils-et-optimisation-des-pc/adobe-acrobat/" title="Adobe Acrobat"><span>Adobe Acrobat</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/outils-et-optimisation-des-pc/adobe-photoshop/" title="Adobe Photoshop"><span>Adobe Photoshop</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/outils-et-optimisation-des-pc/avg-tuneup/" title="AVG Tuneup"><span>AVG Tuneup</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/outils-et-optimisation-des-pc/drive-genius/" title="Drive Genius"><span>Drive Genius</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/outils-et-optimisation-des-pc/ease-us/" title="Ease US"><span>Ease US</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/outils-et-optimisation-des-pc/f-secure/" title="F-Secure"><span>F-Secure</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/outils-et-optimisation-des-pc/officesuite-pdf/" title="OfficeSuite PDF"><span>OfficeSuite PDF</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/outils-et-optimisation-des-pc/paragon-partition/" title="Paragon Partition"><span>Paragon Partition</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/outils-et-optimisation-des-pc/parallels-desktop/" title="Parallels Desktop"><span>Parallels Desktop</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/outils-et-optimisation-des-pc/pdf-expert/" title="PDF Expert"><span>PDF Expert</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/outils-et-optimisation-des-pc/stellar-windows/" title="Stellar Windows"><span>Stellar Windows</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/outils-et-optimisation-des-pc/teamviewerr/" title="Teamviewer"><span>Teamviewer</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/outils-et-optimisation-des-pc/visual-studio/" title="Visual Studio"><span>Visual Studio</span></a></div></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation"><div
+class="widget block block-category-link">
+<a
+href="https://licendi.com/fr/outils-et-optimisation-des-pc/vmware-workstation/" title="VMware Workstation"><span>VMware Workstation</span></a></div></li></ul></div></div></div></div><span
+class="navpro-shevron"></span></div></li><li
+class="li-item level0 nav-7 size-small level-top"><a
+href="https://licendi.com/fr/abonnements/" class="level-top"><span>Abonnements</span></a></li><li
+class="li-item level0 nav-8 size-small level-top"><a
+href="https://licendi.com/fr/licences-pour-les-entreprises/" class="level-top"><span>Licences pour les entreprises</span></a></li><li
+class="li-item level0 nav-9 size-small last level-top parent"><a
+href="#" class="level-top"><span>À propos de nous</span></a><div
+class="navpro-dropdown navpro-dropdown-level1 size-small" data-level="0"><div
+class="navpro-dropdown-inner"><div
+class="navpro-row gutters"><div
+class="navpro-col navpro-col-12"><div
+data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><ul
+class="children navpro-wrapped-items" data-columns="1"><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation">
+<a
+href="https://licendi.com/fr/informations-juridiques-sur-nos-produits/" class="ui-corner-all" aria-haspopup="true" role="menuitem">
+<span>Informations juridiques sur nos produits</span></a></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation">
+<a
+href="https://licendi.com/fr/contacter/" class="ui-corner-all" aria-haspopup="true" role="menuitem">
+<span>Contacter</span></a></li><li
+class="li-item level1 nav-8 size-small last level-top parent ui-menu-item" role="presentation">
+<a
+href="https://licendi.com/fr/download-center/" class="ui-corner-all" aria-haspopup="true" role="menuitem">
+<span>Centre de téléchargements</span></a></li></ul></div></div></div></div><span
+class="navpro-shevron"></span></div></li></ul><div
+class="navpro-mobile"></div></nav> <script type="text/javascript">require(['jquery'],function($){var $menu=$('#navpro-topnav'),components=$menu.data('mageInitLazy'),menu=$menu.get(0),mql;function checkAndInit(mql){if(mql.matches){$.each(components,function(component,settings){require([component],function(factory){factory(settings,menu);});});}
+return mql.matches;}
+function clickWhenNotInited(event){var $toggler=$(event.target),loader='https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/images/loader-2.gif';$toggler.css({backgroundImage:'url('+loader+')',backgroundSize:'180px',backgroundPosition:'center'});$(document).one('navprocreate',function(){$toggler.css({backgroundImage:'',backgroundSize:'',backgroundPosition:''});$menu.data('swissupNavpro').toggle();});checkAndInit(matchMedia('all'));}
+mql=matchMedia('(min-width: 768px)');if(!checkAndInit(mql)){mql.addListener(checkAndInit);$('[data-action=toggle-nav]').one('click',clickWhenNotInited);}})</script> </div><div
+class="section-item-title nav-sections-item-title"
+data-role="collapsible">
+<a
+class="nav-sections-item-switch"
+data-toggle="switch" href="#store.links">
+Account                    </a></div><div
+class="section-item-content nav-sections-item-content"
+id="store.links"
+data-role="content"></div><div
+class="section-item-title nav-sections-item-title"
+data-role="collapsible">
+<a
+class="nav-sections-item-switch"
+data-toggle="switch" href="#store.settings">
+Paramètres                    </a></div><div
+class="section-item-content nav-sections-item-content"
+id="store.settings"
+data-role="content"><div
+class="switcher language switcher-language" data-ui-id="language-switcher" id="switcher-language-nav">
+<strong
+class="label switcher-label"><span>Language</span></strong><div
+class="actions dropdown options switcher-options"><div
+class="action toggle switcher-trigger"
+id="switcher-language-trigger-nav"
+data-mage-init='{"dropdown":{}}'
+data-toggle="dropdown"
+data-trigger-keypress-button="true">
+<strong
+class="view-fr">
+<span>French</span>
+</strong></div><ul
+class="dropdown switcher-dropdown"
+data-target="dropdown"><li
+class="view-en switcher-option">
+<a
+href="https://licendi.com/fr/stores/store/redirect/___store/en/___from_store/fr/uenc/aHR0cHM6Ly9saWNlbmRpLmNvbS9lbi9ibG9nL0FjdGl2ZSUyMERpcmVjdG9yeSUyMGxvY2FsJTIwb3UlMjBBY3RpdmUlMjBEaXJlY3RvcnklMjBkYW5zJTIwbGUlMjBjbG91ZC8%2C/">
+English                            </a></li><li
+class="view-de switcher-option">
+<a
+href="https://licendi.com/fr/stores/store/redirect/___store/de/___from_store/fr/uenc/aHR0cHM6Ly9saWNlbmRpLmNvbS9kZS9ibG9nL0FjdGl2ZSUyMERpcmVjdG9yeSUyMGxvY2FsJTIwb3UlMjBBY3RpdmUlMjBEaXJlY3RvcnklMjBkYW5zJTIwbGUlMjBjbG91ZC8%2C/">
+German                            </a></li><li
+class="view-it switcher-option">
+<a
+href="https://licendi.com/fr/stores/store/redirect/___store/it/___from_store/fr/uenc/aHR0cHM6Ly9saWNlbmRpLmNvbS9pdC9ibG9nL0FjdGl2ZSUyMERpcmVjdG9yeSUyMGxvY2FsJTIwb3UlMjBBY3RpdmUlMjBEaXJlY3RvcnklMjBkYW5zJTIwbGUlMjBjbG91ZC8%2C/">
+Italian                            </a></li><li
+class="view-es switcher-option">
+<a
+href="https://licendi.com/fr/stores/store/redirect/___store/es/___from_store/fr/uenc/aHR0cHM6Ly9saWNlbmRpLmNvbS9lcy9ibG9nL0FjdGl2ZSUyMERpcmVjdG9yeSUyMGxvY2FsJTIwb3UlMjBBY3RpdmUlMjBEaXJlY3RvcnklMjBkYW5zJTIwbGUlMjBjbG91ZC8%2C/">
+Spanish                            </a></li></ul></div></div><div
+class="switcher currency switcher-currency" id="switcher-currency-nav">
+<strong
+class="label switcher-label"><span>Currency</span></strong><div
+class="actions dropdown options switcher-options"><div
+class="action toggle switcher-trigger"
+id="switcher-currency-trigger-nav"
+data-mage-init='{"dropdown":{}}'
+data-toggle="dropdown"
+data-trigger-keypress-button="true">
+<strong
+class="language-EUR">
+<span>EUR, €</span>
+</strong></div><ul
+class="dropdown switcher-dropdown" data-target="dropdown"><li
+class="currency-GBP switcher-option">
+<a
+href="#" data-post='{"action":"https:\/\/licendi.com\/fr\/directory\/currency\/switch\/","data":{"currency":"GBP","uenc":"aHR0cHM6Ly9saWNlbmRpLmNvbS9mci9ibG9nL0FjdGl2ZSUyMERpcmVjdG9yeSUyMGxvY2FsJTIwb3UlMjBBY3RpdmUlMjBEaXJlY3RvcnklMjBkYW5zJTIwbGUlMjBjbG91ZC8,"}}'>GBP, £</a></li><li
+class="currency-USD switcher-option">
+<a
+href="#" data-post='{"action":"https:\/\/licendi.com\/fr\/directory\/currency\/switch\/","data":{"currency":"USD","uenc":"aHR0cHM6Ly9saWNlbmRpLmNvbS9mci9ibG9nL0FjdGl2ZSUyMERpcmVjdG9yeSUyMGxvY2FsJTIwb3UlMjBBY3RpdmUlMjBEaXJlY3RvcnklMjBkYW5zJTIwbGUlMjBjbG91ZC8,"}}'>USD, US$</a></li></ul></div></div></div></div></div><div
+class="breadcrumbs"><ul
+class="items"><li
+class="item home">
+<a
+href="https://licendi.com/fr/"
+title="Aller à la page d’accueil">
+Home                </a></li><li
+class="item blog">
+<a
+href="https://licendi.com/fr/blog/"
+title="Blog">
+Blog                </a></li><li
+class="item blog_parent_category_7">
+<a
+href="https://licendi.com/fr/blog/serveur/"
+title="Serveur">
+Serveur                </a></li><li
+class="item blog_post">
+<strong>Active Directory local ou Active Directory dans le cloud</strong></li></ul></div><main
+id="maincontent" class="page-main"><a
+id="contentarea" tabindex="-1"></a><div
+class="page messages"><div
+data-placeholder="messages"></div><div
+data-bind="scope: 'messages'">
+<!-- ko if: cookieMessages && cookieMessages.length > 0 --><div
+aria-atomic="true" role="alert" data-bind="foreach: { data: cookieMessages, as: 'message' }" class="messages"><div
+data-bind="attr: {
+class: 'message-' + message.type + ' ' + message.type + ' message',
+'data-ui-id': 'message-' + message.type
+}"><div
+data-bind="html: $parent.prepareMessageForHtml(message.text)"></div></div></div>
+<!-- /ko --><!-- ko if: messages().messages && messages().messages.length > 0 --><div
+aria-atomic="true" role="alert" class="messages" data-bind="foreach: {
+data: messages().messages, as: 'message'
+}"><div
+data-bind="attr: {
+class: 'message-' + message.type + ' ' + message.type + ' message',
+'data-ui-id': 'message-' + message.type
+}"><div
+data-bind="html: $parent.prepareMessageForHtml(message.text)"></div></div></div>
+<!-- /ko --></div> <script type="text/x-magento-init">{"*":{"Magento_Ui/js/core/app":{"components":{"messages":{"component":"Magento_Theme/js/view/messages"}}}}}</script> </div><div
+class="columns"><div
+class="column main"><input
+name="form_key" type="hidden" value="uWkyfYWbB8cPWrFb" /><div
+id="authenticationPopup" data-bind="scope:'authenticationPopup', style: {display: 'none'}"> <script>window.authenticationPopup={"autocomplete":"off","customerRegisterUrl":"https:\/\/licendi.com\/fr\/customer\/account\/create\/","customerForgotPasswordUrl":"https:\/\/licendi.com\/fr\/customer\/account\/forgotpassword\/","baseUrl":"https:\/\/licendi.com\/fr\/","customerLoginUrl":"https:\/\/licendi.com\/fr\/customer\/ajax\/login\/"}</script> <!-- ko template: getTemplate() --><!-- /ko --> <script type="text/x-magento-init">{"#authenticationPopup":{"Magento_Ui/js/core/app":{"components":{"authenticationPopup":{"component":"Magento_Customer\/js\/view\/authentication-popup","children":{"messages":{"component":"Magento_Ui\/js\/view\/messages","displayArea":"messages"},"captcha":{"component":"Magento_Captcha\/js\/view\/checkout\/loginCaptcha","displayArea":"additional-login-form-fields","formId":"user_login","configSource":"checkout"}},"config":{"renderTemplate":null,"tracks":{"renderTemplate":true}}}}}},"*":{"Magento_Ui/js/block-loader":"https\u003A\u002F\u002Flicendi.com\u002Fstatic\u002Fversion1746206549\u002Ffrontend\u002FSwissup\u002Fargento\u002Dstripes\u002Ffr_FR\u002Fimages\u002Floader\u002D1.gif","Magento_Customer/js/customer-global-session-loader":{}}}</script> </div> <script type="text/x-magento-init">{"*":{"Magento_Customer/js/section-config":{"sections":{"stores\/store\/switch":["*"],"stores\/store\/switchrequest":["*"],"directory\/currency\/switch":["*"],"*":["messages"],"customer\/account\/logout":["*","recently_viewed_product","recently_compared_product","persistent"],"customer\/account\/loginpost":["*"],"customer\/account\/createpost":["*"],"customer\/account\/editpost":["*"],"customer\/ajax\/login":["checkout-data","cart","captcha"],"catalog\/product_compare\/add":["compare-products","ajaxpro-reinit"],"catalog\/product_compare\/remove":["compare-products","ajaxpro-reinit"],"catalog\/product_compare\/clear":["compare-products","ajaxpro-reinit"],"sales\/guest\/reorder":["cart"],"sales\/order\/reorder":["cart"],"checkout\/cart\/add":["cart","directory-data","ajaxpro-cart"],"checkout\/cart\/delete":["cart","ajaxpro-cart"],"checkout\/cart\/updatepost":["cart","ajaxpro-cart"],"checkout\/cart\/updateitemoptions":["cart","ajaxpro-cart"],"checkout\/cart\/couponpost":["cart","ajaxpro-cart"],"checkout\/cart\/estimatepost":["cart","ajaxpro-cart"],"checkout\/cart\/estimateupdatepost":["cart","ajaxpro-cart"],"checkout\/onepage\/saveorder":["cart","checkout-data","last-ordered-items"],"checkout\/sidebar\/removeitem":["cart"],"checkout\/sidebar\/updateitemqty":["cart"],"rest\/*\/v1\/carts\/*\/payment-information":["cart","last-ordered-items","captcha","instant-purchase"],"rest\/*\/v1\/guest-carts\/*\/payment-information":["cart","captcha"],"rest\/*\/v1\/guest-carts\/*\/selected-payment-method":["cart","checkout-data"],"rest\/*\/v1\/carts\/*\/selected-payment-method":["cart","checkout-data","instant-purchase"],"customer\/address\/*":["instant-purchase"],"customer\/account\/*":["instant-purchase"],"vault\/cards\/deleteaction":["instant-purchase"],"multishipping\/checkout\/overviewpost":["cart"],"paypal\/express\/placeorder":["cart","checkout-data"],"paypal\/payflowexpress\/placeorder":["cart","checkout-data"],"paypal\/express\/onauthorization":["cart","checkout-data"],"persistent\/index\/unsetcookie":["persistent"],"review\/product\/post":["review"],"wishlist\/index\/add":["wishlist","ajaxpro-reinit"],"wishlist\/index\/remove":["wishlist","ajaxpro-reinit"],"wishlist\/index\/updateitemoptions":["wishlist"],"wishlist\/index\/update":["wishlist"],"wishlist\/index\/cart":["wishlist","cart","ajaxpro-cart"],"wishlist\/index\/fromcart":["wishlist","cart","ajaxpro-cart"],"wishlist\/index\/allcart":["wishlist","cart"],"wishlist\/shared\/allcart":["wishlist","cart"],"wishlist\/shared\/cart":["cart"],"abandonedcart\/checkout\/cart":["*"],"braintree\/paypal\/placeorder":["cart","checkout-data"],"braintree\/googlepay\/placeorder":["cart","checkout-data"]},"clientSideSections":["checkout-data","cart-data"],"baseUrls":["https:\/\/licendi.com\/fr\/"],"sectionNames":["messages","customer","compare-products","last-ordered-items","cart","directory-data","captcha","instant-purchase","loggedAsCustomer","persistent","review","wishlist","rewards","ajaxpro-reinit","ajaxpro-cart","ajaxpro-product","recently_viewed_product","recently_compared_product","product_data_storage","paypal-billing-agreement"]}}}</script> <script type="text/x-magento-init">{"*":{"Magento_Customer/js/customer-data":{"sectionLoadUrl":"https\u003A\u002F\u002Flicendi.com\u002Ffr\u002Fcustomer\u002Fsection\u002Fload\u002F","expirableSectionLifetime":60,"expirableSectionNames":["cart","persistent","ajaxpro-reinit","ajaxpro-cart","ajaxpro-product"],"cookieLifeTime":"3600","updateSessionUrl":"https\u003A\u002F\u002Flicendi.com\u002Ffr\u002Fcustomer\u002Faccount\u002FupdateSession\u002F"}}}</script> <script type="text/x-magento-init">{"*":{"Magento_Customer/js/invalidation-processor":{"invalidationRules":{"website-rule":{"Magento_Customer/js/invalidation-rules/website-rule":{"scopeConfig":{"websiteId":"1"}}}}}}}</script> <script type="text/x-magento-init">{"body":{"pageCache":{"url":"https:\/\/licendi.com\/fr\/page_cache\/block\/render\/id\/2010\/","handles":["default","blog_post_view","blog_post_view_id_Active Directory local ou Active Directory dans le cloud","blog_css","customer_logged_out",""],"originalRequest":{"route":"blog","controller":"post","action":"view","uri":"\/fr\/blog\/Active%20Directory%20local%20ou%20Active%20Directory%20dans%20le%20cloud\/"},"versionCookieName":"private_content_version"}}}</script> <script>if(window.require){require(['jquery','Magefan_Blog/js/lib/mfblogunveil','domReady!'],function($){$('.mfblogunveil').mfblogunveil();});}else{document.addEventListener("DOMContentLoaded",function(){var items=document.getElementsByClassName('mfblogunveil');var el,url;if(items.length){for(var i=0;i<items.length;i++){el=items[i];url=el.getAttribute('data-original');if(!url){continue;}
+if('IMG'==el.tagName){el.src=url;}else{el.style.backgroundImage="url('"+url+"')";}}}});}</script> <div
+class="post-view"><div
+class="post-holder post-holder-2010"><div
+class="post-header"><div
+class="addthis_toolbox addthis_default_style" addthis:url="https://licendi.com/fr/blog/Active Directory local ou Active Directory dans le cloud/">
+<a
+class="addthis_button_facebook"></a>
+<a
+class="addthis_button_twitter"></a>
+<a
+class="addthis_button_compact"></a></div><div
+class="post-info"><div
+class="item post-posed-date">
+<i
+class="mf-blog-icon mfbi-calendar"></i>
+<span
+class="label">Publié:</span>
+<span
+class="value">Octobre 14, 2024</span></div><div
+class="item post-categories">
+<i
+class="mf-blog-icon mfbi-folder"></i>
+<span
+class="label">Catégories:</span>
+<a
+title="Serveur"
+href="https://licendi.com/fr/blog/serveur/"
+>Serveur</a></div><div
+class="item post-author">
+<i
+class="mf-blog-icon mfbi-user"></i>
+<span
+class="label">Auteur:</span>
+<span
+class="value">
+<a
+title="Ksenia Shapovalenko"
+href="https://licendi.com/fr/blog/author/ksenia-shapovalenko/">
+Ksenia Shapovalenko
+</a>
+</span></div></div></div><div
+class="post-content"><div
+class="post-description clearfix"><div
+class="post-text-hld"><style>#html-body [data-pb-style=D7OJEGE]{justify-content:flex-start;display:flex;flex-direction:column;background-position:left top;background-size:cover;background-repeat:no-repeat;background-attachment:scroll}#html-body [data-pb-style=B2321K0]{text-align:center;border-style:none}#html-body [data-pb-style=HDRC91E],#html-body [data-pb-style=OPLFPHA]{max-width:100%;height:auto}#html-body [data-pb-style=MJIA0S1]{text-align:center;border-style:none}#html-body [data-pb-style=P84W1HA],#html-body [data-pb-style=PWA9PPY]{max-width:100%;height:auto}@media only screen and (max-width: 768px){#html-body [data-pb-style=B2321K0],#html-body [data-pb-style=MJIA0S1]{border-style:none}}</style><div
+data-content-type="row" data-appearance="contained" data-element="main"><div
+data-enable-parallax="0" data-parallax-speed="0.5" data-background-images="{}" data-background-type="image" data-video-loop="true" data-video-play-only-visible="true" data-video-lazy-load="true" data-video-fallback-src="" data-element="inner" data-pb-style="D7OJEGE"><div
+data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><h1>Active Directory Local vs Active Directory dans le Cloud : Quelle est la meilleure option pour votre entreprise ?</h1><p>Dans le monde de l'administration des réseaux et de la gestion des identités, Active Directory (AD) est un outil essentiel depuis de nombreuses années. Cependant, avec l'arrivée de la technologie cloud, les entreprises ont désormais deux principales options : <strong>Active Directory Local</strong> et <strong>Active Directory dans le Cloud</strong>. Si vous vous demandez laquelle est la meilleure option pour votre organisation, cet article vous aidera à comprendre les différences clés entre les deux et leurs avantages respectifs.</p><h2>Qu'est-ce que l'Active Directory Local ?</h2><p>L'Active Directory Local est la version traditionnelle utilisée depuis des décennies. Il est installé sur des serveurs physiques au sein de l'infrastructure d'une entreprise, permettant ainsi de gérer les identités, les appareils et les accès en interne. Cette approche est idéale pour les organisations qui préfèrent avoir un contrôle total sur leurs données et leurs réseaux.</p></div><figure
+data-content-type="image" data-appearance="full-width" data-element="main" data-pb-style="B2321K0"><img
+class="pagebuilder-mobile-hidden" src="https://licendi.com/media/wysiwyg/Active_Directory_Local_vs_Active_Directory_en_la_Nube.jpg" alt="Active Directory local vs Active Directory dans le nuage" title="" data-element="desktop_image" data-pb-style="HDRC91E" width="1920" height="1080" loading="lazy"><img
+class="pagebuilder-mobile-only" src="https://licendi.com/media/wysiwyg/Active_Directory_Local_vs_Active_Directory_en_la_Nube.jpg" alt="Active Directory local vs Active Directory dans le nuage" title="" data-element="mobile_image" data-pb-style="OPLFPHA" width="1920" height="1080" loading="lazy"></figure><div
+data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><h3>Avantages de l'Active Directory Local</h3><ul><li><strong>Contrôle Total :</strong> Étant intégré à votre infrastructure, vous avez un contrôle total sur qui a accès et comment les ressources sont gérées.</li><li><strong>Personnalisation :</strong> Vous pouvez adapter et configurer l'environnement selon les besoins spécifiques de votre organisation.</li><li><strong>Sécurité :</strong> Si elles sont correctement mises en œuvre, les serveurs physiques peuvent offrir un haut niveau de sécurité.</li></ul><p>Cependant, avoir un Active Directory Local implique des coûts plus élevés, car vous devez investir dans <a
+href="https://licendi.com/fr/serveurs/" target="_blank">l'achat de serveurs Microsoft</a>, leur maintenance et le personnel technique pour les gérer.</p><h2>Qu'est-ce que l'Active Directory dans le Cloud ?</h2><p>L'Active Directory dans le Cloud, plus communément connu sous le nom d'Azure Active Directory (Azure AD), est la solution cloud de Microsoft. Ce service permet aux entreprises de gérer les identités et d'accéder aux applications à distance, sans avoir besoin d'infrastructure physique.</p><h3>Avantages de l'Active Directory dans le Cloud</h3><ul><li><strong>Évolutivité :</strong> Les solutions cloud peuvent évoluer avec votre entreprise, sans avoir besoin d'acquérir du matériel supplémentaire.</li><li><strong>Accès à Distance :</strong> Les utilisateurs peuvent se connecter depuis n'importe où dans le monde, ce qui est idéal pour les entreprises avec des équipes distribuées.</li><li><strong>Coût Initial Réduit :</strong> Il n'est pas nécessaire d'investir dans des serveurs physiques, ce qui réduit considérablement les coûts d'entrée.</li></ul><p>Un exemple clair de cette évolutivité et de cet accès à distance peut être observé dans l'utilisation d'outils comme <a
+href="https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis" target="_blank">Azure AD</a>, qui permet aux entreprises de connecter les utilisateurs et les appareils de manière simple et sécurisée.</p><h2>Comparaison : Active Directory Local vs Active Directory dans le Cloud</h2><p>Les deux solutions ont leurs avantages et inconvénients, et le choix entre l'une ou l'autre dépend largement des besoins spécifiques de votre entreprise. Voici une comparaison rapide :</p><table
+border="1"><thead><tr><th>Caractéristique</th><th>Active Directory Local</th><th>Active Directory dans le Cloud</th></tr></thead><tbody><tr><td><strong>Infrastructure</strong></td><td>Serveurs physiques au sein de l'entreprise</td><td>Pas besoin d'infrastructure physique</td></tr><tr><td><strong>Coûts</strong></td><td>Coûts initiaux élevés (matériel et maintenance)</td><td>Modèle d'abonnement, coûts plus bas à court terme</td></tr><tr><td><strong>Accès</strong></td><td>Accès au sein du réseau interne</td><td>Accès depuis n'importe où avec une connexion Internet</td></tr><tr><td><strong>Évolutivité</strong></td><td>Limitée par le matériel disponible</td><td>Évolutivité illimitée</td></tr><tr><td><strong>Sécurité</strong></td><td>Dépend des mesures de sécurité internes</td><td>Sécurité gérée par les fournisseurs cloud</td></tr></tbody></table><h2>Quelle option devriez-vous choisir ?</h2><p>Le choix entre Active Directory Local et Active Directory dans le Cloud dépend de plusieurs facteurs :</p><ul><li><strong>Taille de l'entreprise :</strong> Les grandes organisations qui ont besoin d'un contrôle total sur leurs données pourraient préférer une solution locale. Alors que les PME, qui recherchent flexibilité et économies, peuvent opter pour le cloud.</li><li><strong>Budget :</strong> Si vous pouvez investir dans du matériel et du personnel, Active Directory Local est une option solide. Si vous préférez une approche basée sur un abonnement et moins de maintenance, le cloud est fait pour vous.</li><li><strong>Mobilité :</strong> Les entreprises avec des travailleurs à distance ou des équipes distribuées préfèrent souvent les solutions cloud en raison de leur accessibilité mondiale.</li></ul></div><figure
+data-content-type="image" data-appearance="full-width" data-element="main" data-pb-style="MJIA0S1"><img
+class="pagebuilder-mobile-hidden" src="https://licendi.com/media/wysiwyg/Active_Directory_Local.jpg" alt="Active Directory Local face à Active Directory sur le Nube" title="" data-element="desktop_image" data-pb-style="PWA9PPY" width="1920" height="1080" loading="lazy"><img
+class="pagebuilder-mobile-only" src="https://licendi.com/media/wysiwyg/Active_Directory_Local.jpg" alt="Active Directory Local face à Active Directory sur le Nube" title="" data-element="mobile_image" data-pb-style="P84W1HA" width="1920" height="1080" loading="lazy"></figure><div
+data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><h2>Conclusion : Quelle est la meilleure option ?</h2><p>Il n'y a pas de réponse unique pour toutes les entreprises. Si votre priorité est le contrôle total et la personnalisation, alors l'Active Directory Local reste une option viable. En revanche, si vous recherchez une solution flexible, évolutive et accessible depuis n'importe où, l'Active Directory dans le Cloud est la meilleure option. Si vous souhaitez acquérir une infrastructure pour un AD local, n'oubliez pas que vous pouvez <a
+href="https://licendi.com/fr/serveurs/" target="_blank">acheter des serveurs Microsoft</a> à un bon prix et avec une garantie d'activation. Profitez de cette opportunité pour optimiser votre réseau !</p></body></html></div></div></div><div
+class="clear clearfix"></div></div></div></div><div
+class="post-bottom"><div
+class="post-nextprev-hld clearfix">
+<a
+class="nextprev-link prev-link"
+href="https://licendi.com/fr/blog/microsoft-hyper-v-server-2022-la-solution /"
+title="Lire Microsoft Hyper-V Server 2022 : La Solution Idéale pour la Virtualisation d&#039;Entreprise">
+&larr; Précédent                </a>
+<a
+class="nextprev-link next-link"
+href="https://licendi.com/fr/blog/sql-2024-pertinent/"
+title="Lire SQL est-il encore pertinent en 2024 ? Découvrez-le ici">
+Suivant &rarr;                </a></div><div
+class="block comments"><div
+id="post-comments"><div
+class="c-count">
+<strong> Commentaires</strong></div><div
+class="c-reply cf"><div
+class="c-replyform no-active"><form
+class="comment-form-blog-recaptcha"
+action="https://licendi.com/fr/blog/comment/post/"
+method="post"
+data-mage-init='{"validation":{}}'>
+<input
+name="form_key" type="hidden" value="uWkyfYWbB8cPWrFb" />                <input
+type="hidden" name="post_id" value="2010" /><textarea name="text"
+                          placeholder="Ajouter un commentaire..."                           data-validate="{required:true}"></textarea><div
+class="c-btn-hld"><div
+class="lr-hld"><div
+class="left-hld">
+<input
+type="text"
+name="author_nickname"
+value=""
+placeholder="Nom"
+class="input-text required-entry"
+data-validate="{required:true}"
+autocomplete="off"
+aria-required="true"></div><div
+class="right-hld">
+<input
+type="email"
+name="author_email"
+autocomplete="email"
+value=""
+placeholder="E-mail"
+class="input-text"
+data-validate="{required:true, 'validate-email':true}"
+aria-required="true"></div></div><div
+class="clearfix"></div><div
+id="recaptcha-append-to"></div><button
+type="submit">Soumettre</button></div></form></div></div></div> <script type="text/x-magento-init">{"#post-comments":{"Magento_Ui/js/core/app":{"components":{"magefan-comments.js":{"component":"Magefan_Blog\/js\/magefan-comments"}}}}}</script> </div><script type="text/javascript">var addthis_config={"ui_language":'en',"data_track_clickback":false}</script> <script type="text/javascript" async
+        src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-608baa0f7d533322"></script> </div></div></div></div><div
+class="sidebar sidebar-additional"><div
+class="widget block blog-search" data-bind="scope: 'blog-search'"><div
+class="block-content"><form
+class="form" id="blog_search_mini_form"
+action="https://licendi.com/fr/blog/search/"
+method="get"><div
+class="field search">
+<label
+class="label" for="blog_search">
+<span>Search</span>
+</label><div
+class="control">
+<input
+id="blog_search"
+type="text"
+name="q"
+value=""
+placeholder="Rechercher des blogs"
+class="input-text"
+maxlength="128" role="combobox"
+aria-haspopup="false"
+aria-autocomplete="both"
+autocomplete="off"></div></div><div
+class="actions">
+<button
+type="submit"
+onclick="return goBlogSearch(this);"
+title="Search"
+class="action search">
+<span>Search</span>
+</button></div></form></div></div> <script type="text/javascript">function goBlogSearch(e)
+{var value=document.getElementById('blog_search').value;if(value){var a=e.form.action;window.location=a+(('/'!=a.charAt(a.length-1))?'/':'')+encodeURI(value)+'/';}
+return false;}</script> <div
+class="widget block block-categories" data-bind="scope: 'categories'"><div
+class="block-title">
+<strong>Les catégories</strong></div><ul
+class="accordion"  id="accordion-2"><li>
+<a
+title="Non catégorisé" href="https://licendi.com/fr/blog/sin-categoría-fr/">
+Non catégorisé                    </a>
+(1)</li><li>
+<a
+title="Serveur" href="https://licendi.com/fr/blog/serveur/">
+Serveur                    </a>
+(73)</li><li>
+<a
+title="Musique" href="https://licendi.com/fr/blog/musique/">
+Musique                    </a>
+(2)</li><li>
+<a
+title="Jeux vidéo" href="https://licendi.com/fr/blog/jeux-video/">
+Jeux vidéo                    </a>
+(4)</li><li>
+<a
+title="Antivirus et sécurité" href="https://licendi.com/fr/blog/antivirus-et-securite/">
+Antivirus et sécurité                    </a>
+(9)</li><li>
+<a
+title="Programmes Office" href="https://licendi.com/fr/blog/programmes-office/">
+Programmes Office                    </a>
+(139)</li><li>
+<a
+title="Systèmes d’exploitation" href="https://licendi.com/fr/blog/systemes-dxploitation/">
+Systèmes d’exploitation                    </a>
+(53)</li><li>
+<a
+title="Développement et améliorations" href="https://licendi.com/fr/blog/developpement-et-ameliorations/">
+Développement et améliorations                    </a>
+(10)</li><li>
+<a
+title="Tutoriels" href="https://licendi.com/fr/blog/tutoriels/">
+Tutoriels                    </a>
+(51)</ul></div><div
+class="widget block block-recent-posts block-list-posts" ><div
+class="block-title">
+<strong>Articles récents</strong></div><div
+class="block-content"><div
+class="item clearfix"><div
+class="post-image">
+<a
+class="post-item-link" title="Télécharger Windows 11 Enterprise : fichier ISO " href="https://licendi.com/fr/blog/télécharger-windows-11-enterprise-fichier-iso /">
+<img
+data-width-amp="300" data-height-amp="200" layout="responsive" src="https://licendi.com/media/blog/cache/300x200/magefan_blog/Comprar_Windows_11.jpg" alt="Télécharger Windows 11 Enterprise " width="300" height="200" loading="lazy"></a></div>
+<a
+class="post-item-link" title="Télécharger Windows 11 Enterprise : fichier ISO " href="https://licendi.com/fr/blog/télécharger-windows-11-enterprise-fichier-iso /">
+Télécharger Windows 11 Enterprise : fichier ISO                 </a><div
+class="post-item-date">
+<span
+class="value">Mai 01, 2025</span></div></div><div
+class="item clearfix"><div
+class="post-image">
+<a
+class="post-item-link" title="Utiliser Microsoft Copilot sans le cloud" href="https://licendi.com/fr/blog/utiliser-microsoft-copilot-sans-le-cloud/">
+<img
+data-width-amp="300" data-height-amp="200" layout="responsive" src="https://licendi.com/media/blog/cache/300x200/magefan_blog/Microsoft_Copilot_Without_the_Cloud.jpg" alt="Microsoft Copilot sans le cloud" width="300" height="200" loading="lazy"></a></div>
+<a
+class="post-item-link" title="Utiliser Microsoft Copilot sans le cloud" href="https://licendi.com/fr/blog/utiliser-microsoft-copilot-sans-le-cloud/">
+Utiliser Microsoft Copilot sans le cloud                </a><div
+class="post-item-date">
+<span
+class="value">Avril 28, 2025</span></div></div><div
+class="item clearfix"><div
+class="post-image">
+<a
+class="post-item-link" title="Adobe Illustrator vs Adobe Photoshop " href="https://licendi.com/fr/blog/différences-adobe-illustrator-vs-adobe-photoshop/">
+<img
+data-width-amp="300" data-height-amp="200" layout="responsive" src="https://licendi.com/media/blog/cache/300x200/magefan_blog/Adobe_Illustrator_vs_Adobe_Photoshop.jpg" alt="Adobe Illustrator vs Adobe Photoshop" width="300" height="200" loading="lazy"></a></div>
+<a
+class="post-item-link" title="Adobe Illustrator vs Adobe Photoshop " href="https://licendi.com/fr/blog/différences-adobe-illustrator-vs-adobe-photoshop/">
+Adobe Illustrator vs Adobe Photoshop                 </a><div
+class="post-item-date">
+<span
+class="value">Avril 24, 2025</span></div></div><div
+class="item clearfix"><div
+class="post-image">
+<a
+class="post-item-link" title="Nouveautés de Windows Server 2025 Datacenter" href="https://licendi.com/fr/blog/nouveautés-de-windows-server-2025-datacenter/">
+<img
+data-width-amp="300" data-height-amp="200" layout="responsive" src="https://licendi.com/media/blog/cache/300x200/magefan_blog/Novedades_de_Windows_Server_2025_Datacenter.jpg" alt="Nouveautés de Windows Server 2025 Datacenter" width="300" height="200" loading="lazy"></a></div>
+<a
+class="post-item-link" title="Nouveautés de Windows Server 2025 Datacenter" href="https://licendi.com/fr/blog/nouveautés-de-windows-server-2025-datacenter/">
+Nouveautés de Windows Server 2025 Datacenter                </a><div
+class="post-item-date">
+<span
+class="value">Avril 23, 2025</span></div></div><div
+class="item clearfix"><div
+class="post-image">
+<a
+class="post-item-link" title="Windows Server 2025 Essentials : Puissance Intelligente pour les PME" href="https://licendi.com/fr/blog/windows-server-2025-essentials-puissance-intelligente-pour-les-pme/">
+<img
+data-width-amp="300" data-height-amp="200" layout="responsive" src="https://licendi.com/media/blog/cache/300x200/magefan_blog/Windows_Server_2025_Essentials.jpg" alt="Windows Server 2025 Essentials" width="300" height="200" loading="lazy"></a></div>
+<a
+class="post-item-link" title="Windows Server 2025 Essentials : Puissance Intelligente pour les PME" href="https://licendi.com/fr/blog/windows-server-2025-essentials-puissance-intelligente-pour-les-pme/">
+Windows Server 2025 Essentials : Puissance Intelligente pour les PME                </a><div
+class="post-item-date">
+<span
+class="value">Avril 17, 2025</span></div></div></div></div></div></div></main><footer
+class="page-footer"><div
+class="page-container footer-toolbar footer-toolbar-top"><div
+class="content"><div
+data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><style>.certificates-logo
+li{width:calc(50% - 20px);padding:10px}ul.certificates-logo{display:flex;flex-wrap:wrap;margin-left:-10px !important}</style><div
+class="footer-contacts argento-grid"><div
+class="col-md-3 col-xs-12" style="
+padding: 15px 0;
+"><div
+class="argento-grid"><div
+data-role="title" class="h4">Recevez notre Newsletter</div><p>Recevez notre newsletter trimestriel et découvrez les dernières tendances.</p><div
+class="block newsletter"><div
+class="title"><strong>Newsletter</strong></div><div
+class="content"><form
+class="form subscribe" novalidate action="https://licendi.com/fr/newsletter/subscriber/new/" method="post" data-mage-init='{"validation": {"errorClass": "mage-error"}}' id="newsletter-validate-detail"><div
+class="field newsletter"><div
+class="control">
+<label
+for="newsletter">
+<span
+class="label">
+Sign Up for Our Newsletter:                        </span>
+<input
+name="email" type="email" id="newsletter" placeholder="Votre adresse e-mail" data-mage-init='{"mage/trim-input":{}}' data-validate="{required:true, 'validate-email':true}">
+</label></div></div><div
+class="actions">
+<button
+class="action subscribe primary" title="S'abonner" type="submit" aria-label="Subscribe">
+<span>S'abonner</span>
+</button></div></form></div></div> <script type="text/x-magento-init">{"*":{"Magento_Customer/js/block-submit-on-send":{"formId":"newsletter-validate-detail"}}}</script> </div></div><div
+class="col-md-3 col-xs-12" ><ul
+class="content footer links argento-grid" style="padding: 0;"><li
+class="col-md-12 col-xs-12"><div
+data-role="title" class="h4">Navigation</div><ul
+data-role="content" class="links"><li><a
+href="https://licendi.com/fr/jeux/">Jeux</a></li><li><a
+href="https://licendi.com/fr/licences-microsoft-office/">Microsoft Office</a></li><li><a
+href="https://licendi.com/fr/windows-licenses/">Windows</a></li><li><a
+href="https://licendi.com/fr/serveurs/">Serveurs</a></li><li><a
+href="https://licendi.com/fr/antivirus-et-securite/">Antivirus et sécurité</a></li><li><a
+href="https://licendi.com/fr/outils-et-optimisation-des-pc/">Outils et optimisation des PC</a></li><li><a
+href="https://licendi.com/fr/abonnements/">Abonnements</a></li><li><a
+href="https://licendi.com/fr/licences-pour-les-entreprises/">Licences pour les entreprises</a></li><li><a
+href="https://licendi.com/fr/customer/account/">Mon compte</a></li><li><a
+href="https://licendi.com/fr/blog">Blog</a></li></ul></li></ul></div><div
+class="col-md-3 col-xs-12"><ul
+class="content footer links argento-grid" style="padding: 0;"><li
+class="col-md-12 col-xs-12"><div
+data-role="title" class="h4">Certificats</div><ul
+class="certificates-logo"><li><a
+href="https://www.google.com/maps/place/Licendi/@38.3643731,-0.4164669,15z/data=!4m5!3m4!1s0x0:0xf941abe3641cdc55!8m2!3d38.3643731!4d-0.4164669" target="_blank"><img
+src="https://licendi.com/media/wysiwyg/Mask-group.png" alt="" width="352" height="123" loading="lazy"></a></li><li><a
+href="https://adobedealreg.secure.force.com/PartnerSearch/?lang=es" target="_blank"><img
+src="https:///licendi.com/media/wysiwyg/elements/certified_reseller_badge_2_lines-1-2.png" alt="" loading="lazy">
+</a></li><li><a
+href="https://es.trustpilot.com/review/licenciasdirectas.es" target="_blank"><img
+src="https://licendi.com/media/wysiwyg/Mask-group-1.png" alt="" width="351" height="115" loading="lazy"></a></li><li><a
+href="https://appsource.microsoft.com/en-GB/marketplace/partner-dir/729936b5-4a02-4477-9b7a-acadfd2e2254/overview" target="_blank"><img
+src="https://licendi.com/media/wysiwyg/image-2-2.png" alt="" width="352" height="123" loading="lazy"></a></li><li><a
+href="https://licendi.com/wp-content/uploads/2022/10/Mobisystems-Brand-Authorization-Letter-Licendi-scaled.jpg" target="_blank"><img
+src="https:///licendi.com/media/wysiwyg/elements/unnamed-1.png" alt="" loading="lazy">
+<a/></li></ul></li></ul></div><div
+class="col-md-3 col-xs-12"><div
+data-role="title" class="h4">Contactez-nous</div><div
+class="social-icons colorize-fa-stack-hover">
+<a
+href="https://www.facebook.com/LicenciasDirectas/" target="_blank" class="icon icon-facebook">
+<span
+class="fa-stack fa-2x">
+<i
+class="fa fa-circle fa-stack-2x"></i>
+<i
+class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+</span>
+</a>
+<a
+href="https://www.youtube.com/channel/UCbDBE2Qfa2is2ZliYj6fQfA" target="_blank" class="icon icon-youtube">
+<span
+class="fa-stack fa-2x">
+<i
+class="fa fa-circle fa-stack-2x"></i>
+<i
+class="fa fa-youtube-play fa-stack-1x fa-inverse"></i>
+</span>
+</a>
+<a
+href="https://es.linkedin.com/company/licenciasdirectas" target="_blank" class="icon icon-twitter">
+<span
+class="fa-stack fa-2x">
+<i
+class="fa fa-circle fa-stack-2x"></i>
+<i
+class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+</span>
+</a>
+<a
+href="https://www.instagram.com/licendi.es/" target="_blank" class="icon icon-instagram">
+<span
+class="fa-stack fa-2x">
+<i
+class="fa fa-circle fa-stack-2x"></i>
+<i
+class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+</span>
+</a></div><div
+class="col-lg-12 col-md-12 block" style="margin-top: 30px;"><ul><li
+class="col-lg-6 col-md-12"><a
+href='https://help.licendi.com/fr/' target="_blank"><img
+src="https://licendi.com/media/wysiwyg/Group-60-2-300x81.png" alt="" width="300" height="81" loading="lazy"></a></li><li
+class="col-lg-6 col-md-12"><a
+href='https://licendi.com/fr/licences-pour-les-entreprises'><img
+src="https://licendi.com/media/wysiwyg/trabajemos-2-300x81.png" alt="" width="300" height="81" loading="lazy"></a></li></ul></div></div></div></div></div></div><div
+class="page-container footer-toolbar footer-toolbar-bottom"><div
+data-content-type="html" data-appearance="default" data-element="main" data-decoded="true"><div
+class="footer-payments a-center">
+<img
+src="https://licendi.com/media/wysiwyg/Requirment-icons.png" alt="" width="721" height="31" loading="lazy"></div><p
+style="
+margin-top: 1rem;
+"><span
+style="color: #000"><a
+style="color: #000" href="https://licendi.com/fr/imprint/" target="_blank" rel="noopener">Mentions légales</a> | <a
+style="color: #000" href="https://licendi.com/fr/conditions-generales-de-vente/" target="_blank" rel="noopener">Conditions générales de vente</a> | <a
+style="color: #000" href="https://licendi.com/fr/politique-en-matiere-de-cookies/" target="_blank" rel="noopener">Politique en matière de cookies</a> | <a
+style="color: #000" href="https://licendi.com/fr/declaration-de-protection-des-donnees/" target="_blank" rel="noopener">Protection Des Données</a></span></p></div><div
+class="content"><small
+class="copyright">
+<span>meeco Services – Tous droits réservés  | Web design and Development by <a
+class="footer-copyright-link" target="_blank" href="https://telsamedia.com/">Telsa Media</a></span>
+</small></div></div></footer><script type="text/x-magento-init">{"*":{"Magento_Ui/js/core/app":{"components":{"storage-manager":{"component":"Magento_Catalog/js/storage-manager","appendTo":"","storagesConfiguration":{"recently_viewed_product":{"requestConfig":{"syncUrl":"https:\/\/licendi.com\/fr\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"recently_compared_product":{"requestConfig":{"syncUrl":"https:\/\/licendi.com\/fr\/catalog\/product\/frontend_action_synchronize\/"},"lifetime":"1000","allowToSendRequest":null},"product_data_storage":{"updateRequestConfig":{"url":"https:\/\/licendi.com\/fr\/rest\/fr\/V1\/products-render-info"},"requestConfig":{"syncUrl":"https:\/\/licendi.com\/fr\/catalog\/product\/frontend_action_synchronize\/"},"allowToSendRequest":null}}}}}}}</script> <script>window.swissupAjaxproConfig={"sectionLoadUrl":"https:\/\/licendi.com\/fr\/customer\/section\/load\/","refererParam":"uenc","refererValue":"aHR0cHM6Ly9saWNlbmRpLmNvbS9mci9ibG9nL0FjdGl2ZSUyMERpcmVjdG9yeSUyMGxvY2FsJTIwb3UlMjBBY3RpdmUlMjBEaXJlY3RvcnklMjBkYW5zJTIwbGUlMjBjbG91ZC8,"};</script> <script type="text/x-magento-init">{"*":{"Magento_Ui/js/core/app":{"components":{"ajaxpro":{"component":"Swissup_Ajaxpro\/js\/ajaxpro","debug":false,"version":""}}}},".action.tocart, .ajaxpro-modal-dialog #shopping-cart-table .action-delete, .action.tocompare, .block-compare .action.delete, .block-wishlist .action.delete, .block-wishlist .action.tocart, .action.towishlist:not(.updated), .ajaxpro-modal-dialog #shopping-cart-table .action.action-towishlist":{"Swissup_Ajaxpro/js/ajaxcian-data-post":{"loaderImage":"https:\/\/licendi.com\/static\/version1746206549\/frontend\/Swissup\/argento-stripes\/fr_FR\/images\/loader-1.gif","loaderImageMaxWidth":"20px"}}}</script> <div
+data-bind="scope: 'ajaxpro'"><div
+id="ajaxpro-reinit" data-bind="html: bindBlock('reinit')"></div></div><select
+name="cat"
+id="swissup-ajaxsearch-filter-category"
+data-placeholder="Tout"><option
+value="0">Tout</option>
+</select> <script id="swissup-ajaxsearch-init" type="text/x-magento-init">{"#search":{"Swissup_Ajaxsearch/js/ajaxsearch":{"name":"Ajaxsearch","options":{"url":"https://licendi.com/fr/search/ajax/suggest/?q=_QUERY","wildcard":"_QUERY","useGraphql":false,"graphqlUrl":"https://licendi.com/fr/graphql/","storeViewCode":"fr","isProductViewAllEnabled":false,"classes":{"container":".block-swissup-ajaxsearch","additional":""},"templates":{"autocomplete":"#swissup-ajaxsearch-autocomplete-template","product":"#swissup-ajaxsearch-product-template","page":"#swissup-ajaxsearch-page-template","category":"#swissup-ajaxsearch-category-template","popular":"#swissup-ajaxsearch-popular-template","notFound":"#swissup-ajaxsearch-template-not-found"},"loader":{"container":".block-swissup-ajaxsearch .actions","loaderImage":"https://licendi.com/static/version1746206549/frontend/Swissup/argento-stripes/fr_FR/images/loader-1.gif"},"typeahead":{"options":{"highlight":true,"hint":true,"minLength":3,"classNames":{"input":"tt-input","hint":"tt-hint","menu":"tt-menu block-swissup-ajaxsearch-results","dataset":"tt-dataset wrapper grid","suggestion":"tt-suggestion","empty":"tt-empty","open":"tt-open","cursor":"tt-cursor","highlight":"tt-highlight"}},"limit":100},"settings":{"priceFormat":{"pattern":"%s\u00a0\u20ac","precision":2,"requiredPrecision":2,"decimalSymbol":",","groupSymbol":"\u202f","groupLength":3,"integerRequired":false},"package":"swissup\/module-ajaxsearch","module":"Swissup_Ajaxsearch","version":"1.13.1"}},"categoryFilter":{"matchMedia":"(min-width: 768px)","categoryVarName":"cat","isCategoryFilterLoadOptionsByGraphql":true,"graphqlUrl":"https://licendi.com/fr/graphql/","storeViewCode":"fr","currentCategoryId":2}}}}</script> <script type="text/x-magento-init">{"*":{"Swissup_Gdpr/js/view/consents":[{"form":"form[action*=\"contact\/index\/post\"]","consents":[{"enabled":"1","sort_order":"20","title":"J'accepte que mes donn\u00e9es personnelles soient stock\u00e9es et utilis\u00e9es pour me contacter","forms":"magento:contact-us","html_id":"contacts"}]},{"async":".actions-toolbar","form":"form[action*=\"customer\/account\/createpost\"]","consents":[{"enabled":"1","sort_order":"10","title":"J'accepte la <a href=\"https:\/\/licendi.com\/fr\/conditions-generales-de-vente\/\" target=\"_blank\" title=\"politique de confidentialit\u00e9\" target=\"_blank\">politique de confidentialit\u00e9.<\/a>","forms":"magento:customer-registration","html_id":"privacy"},{"enabled":"1","sort_order":"11","title":"J'accepte les <a href=\"https:\/\/licendi.com\/fr\/conditions-generales-de-vente\/\" target=\"_blank\" target=\"_blank\" title=\"conditions g\u00e9n\u00e9rales\">conditions g\u00e9n\u00e9rales.<\/a>","forms":"magento:customer-registration","html_id":"terms"},{"enabled":"1","sort_order":"20","title":"J'accepte que mes donn\u00e9es personnelles soient stock\u00e9es et utilis\u00e9es pour fournir les services du site web. (Traitement des commandes, commentaires, critiques, questions, t\u00e9moignages)","forms":"magento:customer-registration","html_id":"personal_data"}]},{"destination":"> .field:not(.captcha):not(.g-recaptcha):not(.field-recaptcha):last","form":"form[action*=\"newsletter\/subscriber\/new\"]","consents":[{"enabled":"1","sort_order":"20","title":"J'accepte que mon e-mail soit stock\u00e9 et utilis\u00e9 pour recevoir des informations et des offres commerciales sur des produits et des services","forms":"magento:newsletter-subscription,magento:newsletter-subscription-management","html_id":"newsletter"}]},{"checkbox":false,"destination":"> fieldset:last > .field:not(.captcha):not(.g-recaptcha):not(.field-recaptcha):last .label","form":"form[action*=\"newsletter\/manage\/save\"]","consents":[{"enabled":"1","sort_order":"20","title":"J'accepte que mon e-mail soit stock\u00e9 et utilis\u00e9 pour recevoir des informations et des offres commerciales sur des produits et des services","forms":"magento:newsletter-subscription,magento:newsletter-subscription-management","html_id":"newsletter"}]},{"form":"form[action*=\"review\/product\/post\"]","consents":[{"enabled":"1","sort_order":"20","title":"J'accepte que mes donn\u00e9es personnelles soient stock\u00e9es et utilis\u00e9es pour afficher mon commentaire","forms":"magento:product-review","html_id":"review"}]},{"form":".askit-answer-form form","consents":[{"enabled":"1","sort_order":"10","title":"I agree to my personal data being stored and used to display my answer on the site","forms":"swissup:askit_answer","html_id":"askit_answer"}]},{"form":".askit-question-form form","consents":[{"enabled":"1","sort_order":"10","title":"J'accepte que mes donn\u00e9es personnelles soient stock\u00e9es et utilis\u00e9es pour afficher ma question et y r\u00e9pondre avec pr\u00e9cision.","forms":"swissup:askit_question","html_id":"askit_question"}]},{"form":"form[action*=\"swissup\/gdpr\/cookie\/accept\"]","consents":[{"enabled":"1","sort_order":"20","title":"I accept following cookies: {{cookie_groups}}","forms":"swissup:cookie-consent","html_id":"cookie"}]},{"form":"form[action*=\"testimonials\/index\/save\"]","consents":[{"enabled":"1","sort_order":"10","title":"I agree to my personal data being stored and used to display my testimonial on the site","forms":"swissup:testimonials","html_id":"swissup_testimonials"}]}]}}</script> <div
+class="cookie-bar cookie-bar-mode-minimalistic cookie-bar-theme-light"
+style="display: none"
+data-mage-init='{"Swissup_Gdpr/js/view/cookie-bar": &#x5B;&#x5D;}'><div
+class="cookie-bar-container"><div
+class="cookie-bar-text"><p>
+Cookies Pour que ce site fonctionne correctement, nous plaçons parfois de petits fichiers de données, appelés cookies, sur les appareils des utilisateurs. La plupart des grands sites web le font aussi.</p></div><div
+class="cookie-bar-buttons">
+<a
+href="https://licendi.com/fr/cookie-settings/"
+>Paramètres des cookies</a>
+<button
+class="action primary accept-cookie-consent" data-cookies-allow-all
+>Accepter</button></div></div></div> <script>window.swissupGdprCookieSettings={"groups":{"necessary":{"code":"necessary","required":1,"prechecked":1},"marketing":{"code":"marketing","required":0,"prechecked":0},"advertisement":{"code":"advertisement","required":0,"prechecked":0},"analytics":{"code":"analytics","required":0,"prechecked":0}},"cookies":{"PHPSESSID":{"name":"PHPSESSID","group":"necessary"},"change_store":{"name":"change_store","group":"necessary"},"current_store":{"name":"current_store","group":"necessary"},"first_redirect":{"name":"first_redirect","group":"necessary"},"form_key":{"name":"form_key","group":"necessary"},"googtrans":{"name":"googtrans","group":"necessary"},"guest-view":{"name":"guest-view","group":"necessary"},"is_switcher":{"name":"is_switcher","group":"necessary"},"login_redirect":{"name":"login_redirect","group":"necessary"},"mage-banners-cache-storage":{"name":"mage-banners-cache-storage","group":"necessary"},"mage-cache-sessid":{"name":"mage-cache-sessid","group":"necessary"},"mage-cache-storage":{"name":"mage-cache-storage","group":"necessary"},"mage-cache-storage-section-invalidation":{"name":"mage-cache-storage-section-invalidation","group":"necessary"},"mage-messages":{"name":"mage-messages","group":"necessary"},"mpstoreswitcher_last_code":{"name":"mpstoreswitcher_last_code","group":"necessary"},"not_save":{"name":"not_save","group":"necessary"},"private_content_version":{"name":"private_content_version","group":"necessary"},"section_data_clean":{"name":"section_data_clean","group":"necessary"},"section_data_ids":{"name":"section_data_ids","group":"necessary"},"stop_redirect":{"name":"stop_redirect","group":"necessary"},"store":{"name":"store","group":"necessary"},"switch_code":{"name":"switch_code","group":"necessary"},"switch_label1":{"name":"switch_label1","group":"necessary"},"switch_label2":{"name":"switch_label2","group":"necessary"},"switch_store":{"name":"switch_store","group":"necessary"},"switch_store_url":{"name":"switch_store_url","group":"necessary"},"switch_url":{"name":"switch_url","group":"necessary"},"user_allowed_save_cookie":{"name":"user_allowed_save_cookie","group":"necessary"},"cookie_consent":{"name":"cookie_consent","group":"necessary"},"X-Magento-Vary":{"name":"X-Magento-Vary","group":"necessary"},"_gac_UA-194829258-1":{"name":"_gac_UA-194829258-1","group":"necessary"},"_gcl_au":{"name":"_gcl_au","group":"necessary"},"_gcl_aw":{"name":"_gcl_aw","group":"necessary"},"__atrfs":{"name":"__atrfs","group":"necessary"},"__atssc":{"name":"__atssc","group":"necessary"},"__atuvc":{"name":"__atuvc","group":"necessary"},"__atuvs":{"name":"__atuvs","group":"necessary"},"__stripe_mid":{"name":"__stripe_mid","group":"necessary"},"__stripe_sid":{"name":"__stripe_sid","group":"necessary"},"product_data_storage":{"name":"product_data_storage","group":"marketing"},"recently_compared_product":{"name":"recently_compared_product","group":"marketing"},"recently_compared_product_previous":{"name":"recently_compared_product_previous","group":"marketing"},"recently_viewed_product":{"name":"recently_viewed_product","group":"marketing"},"recently_viewed_product_previous":{"name":"recently_viewed_product_previous","group":"marketing"},"_fbp":{"name":"_fbp","group":"marketing"},"easybanner":{"name":"easybanner","group":"advertisement"},"dc_gtm_*":{"name":"dc_gtm_*","group":"analytics"},"_ga":{"name":"_ga","group":"analytics"},"_gat":{"name":"_gat","group":"analytics"},"_gid":{"name":"_gid","group":"analytics"},"_ga_*":{"name":"_ga_*","group":"analytics"},"_gat_*":{"name":"_gat_*","group":"analytics"}},"lifetime":90,"cookieName":"cookie_consent","saveUrl":"https:\/\/licendi.com\/fr\/privacy-tools\/cookie\/accept\/","registerUrl":"https:\/\/licendi.com\/fr\/privacy-tools\/cookie\/unknown\/"}</script> <script data-defer-js-ignore>(function(_window){const idleCallback=_window.requestIdleCallback||_window.setTimeout;function _require(scriptShortName){return function(){if(typeof _window.require==='function'){_window.require([scriptShortName],function(){});}}}
+_window.addEventListener('load',function(){let defined=[];_window.require.nextTick=typeof requestIdleCallback!=='undefined'?(function(fn){requestIdleCallback(fn,{timeout:1})}):(typeof setTimeout!=='undefined'?function(fn){setTimeout(fn,4);}:function(fn){fn();});if(typeof _window.require==='function'&&_window.require.hasOwnProperty('s')){defined=Object.keys(_window.require.s.contexts._.defined).filter(key=>{return!key.startsWith('vimeo/');});;}
+for(let i=0,l=defined.length;i<l;i++){idleCallback(_require(defined[i],i));}});}(window));</script> <script type="application/ld+json" data-defer-js-ignore>{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://licendi.com/fr/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@id":"https://licendi.com/fr/blog/","name":"Blog"}},{"@type":"ListItem","position":3,"item":{"@id":"https://licendi.com/fr/blog/serveur/","name":"Serveur"}}]}</script> </div></body></html>
